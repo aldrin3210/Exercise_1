@@ -20,7 +20,7 @@ class mypuppet{
 
     #download file from git
     exec {'download_checker':
-        command => "/usr/bin/wget -q https://raw.github.com/aldrin3210/Exercise_1/memory_checker -o /home/monitor/scripts",
+        command => "/usr/bin/wget -q https://raw.githubusercontent.com/aldrin3210/Exercise_1/master/memnory_checker.sh -o /home/monitor/scripts",
         creates => "/home/monitor/scripts",
     }
 
